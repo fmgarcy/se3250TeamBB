@@ -11,10 +11,10 @@ setup(name='se3250lib',
     packages=find_packages(),  # Automatically finds all packages in directory (includes this library by default)
     install_requires=[
         # list other dependencies here
-        'graphviz',
-        'pandas',
-        'numpy',
-        'matplotlib',
+        #'graphviz',
+        #'pandas',
+        #'numpy',
+        #'matplotlib',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
