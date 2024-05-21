@@ -7,7 +7,7 @@ setup(name='se3250lib',
     description='Ship List, Weapons Inventory and Cost Formulas',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/fmgarcy/se3250lib.git',
+    url='https://github.com/fmgarcy/se3250TeamBB.git',
     packages=find_packages(),  # Automatically finds all packages in directory (includes this library by default)
     install_requires=[
         # list other dependencies here
