@@ -28,68 +28,68 @@ class Missiles:
 
 wpn_inv = {
     #Friendly
-    "AGM_114L": Missiles(
+    "AGM-114L": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "AGM_84E": Missiles(
+    "AGM-84E": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "BGM_109": Missiles(
+    "BGM-109": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "RIM_116": Missiles(
+    "RIM-116": Missiles(
         launch_reliability = 0.5,
         ascm_to_hit = 0.88,
         sam_to_hit = 0.80,
         ),
-    "RGM_84": Missiles(
+    "RGM-84": Missiles(
         launch_reliability = 0.9,
         ascm_to_hit = 0.20,
         sam_to_hit = 0.68,
         ),
-    "RGM_184A": Missiles(
+    "RGM-184A": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "SM_3": Missiles(
+    "SM-3": Missiles(
         launch_reliability = 1.0,
         ascm_to_hit = 0.75,
         sam_to_hit = 0.68,
         ),
     #Hostile
-    "FL_300N": Missiles(
+    "FL-300N": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "HQ_10": Missiles(
+    "HQ-10": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "HQ_16": Missiles(
+    "HQ-16": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "YJ_18": Missiles(
+    "YJ-18": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "YJ_21": Missiles(
+    "YJ-12": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
         ),
-    "YJ_83": Missiles(
+    "YJ-83": Missiles(
         launch_reliability = 0.8,
         ascm_to_hit = 0.55,
         sam_to_hit = 0.68,
