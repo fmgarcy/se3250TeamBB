@@ -57,17 +57,17 @@ class Ship:
 
 # BLUFOR friendly
 ship_inv = {
-    "DDG_52": Ship(
+    "DDG-52": Ship(
         op=15,
         dp=10,
         sp=1.5
         ),
-    "DDG_84": Ship(
+    "DDG-84": Ship(
         op=7,
         dp=13,
         sp=1.2
         ),
-    "DDG_105": Ship(
+    "DDG-105": Ship(
         op=20,
         dp=4,
         sp=1.8
