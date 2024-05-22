@@ -101,3 +101,10 @@ def get_wpn_data(wpn_type):
 
 def list_all_weapons():
     return list(wpn_inv.keys())
+
+def get_offensive_mod(wpn_type)
+    weapon = wpn_inv.get(wpn_type)
+    lr = weapon.launch_reliability
+    ath = weapon.ascm_to_hit
+    launch_hit_frac = lr*ath
+    return launch_hit_frac
