@@ -22,8 +22,8 @@ class Ship:
         * status (fraction): fraction of its staying power remaining. 1 is intact, 0 is OOA.
     '''
 
-    def __init__(self, ship_type, op, dp, sp):
-        self.ship_type = ship_type
+    def __init__(self, type, op, dp, sp):
+        self.type = type
         self.op = op
         self.dp = dp
         self.sp = sp
@@ -54,44 +54,44 @@ class Ship:
         shipStatus = round(self.status * 100, 2)
         shipOp = round(self.ascm_fire(), 2)
         shipDp = round(self.sam_fire(), 2)
-        shipString = "{} ({}%) OP: {} DP: {}\n".format(self.ship_type, shipStatus, shipOp, shipDp)
+        shipString = "{} ({}%) OP: {} DP: {}\n".format(self.type, shipStatus, shipOp, shipDp)
         return shipString
 
 # BLUFOR friendly
 ship_inv = {
     "DDG_52": Ship(
-        ship_type="DDG_52",
+        type="DDG_52",
         op=15,
         dp=10,
         sp=1.5
         ),
     "DDG_84": Ship(
-        ship_type="DDG_84",
+        type="DDG_84",
         op=7,
         dp=13,
         sp=1.2
         ),
     "DDG_105": Ship(
-        ship_type="DDG_105",
+        type="DDG_105",
         op=20,
         dp=4,
         sp=1.8
         ),
     # REDFOR hostile
     "DDG": Ship(
-        ship_type="DDG",
+        type="DDG",
         op=9,
         dp=2,
         sp=1.3
         ),
     "FFC": Ship(
-        ship_type="FFC",
+        type="FFC",
         op=4,
         dp=14,
         sp=1.6
         ),
     "FFG": Ship(
-        ship_type="FFG",
+        type="FFG",
         op=10,
         dp=4,
         sp=1
