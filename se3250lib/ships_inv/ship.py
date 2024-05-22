@@ -60,38 +60,38 @@ class Ship:
 # BLUFOR friendly
 ship_inv = {
     "DDG_52": Ship(
-        type="DDG_52",
+        type=Friendly_Vessel_Type,
         op=15,
         dp=10,
         sp=1.5
         ),
     "DDG_84": Ship(
-        type="DDG_84",
+        type=Friendly_Vessel_Type,
         op=7,
         dp=13,
         sp=1.2
         ),
     "DDG_105": Ship(
-        type="DDG_105",
+        type=Friendly_Vessel_Type,
         op=20,
         dp=4,
         sp=1.8
         ),
     # REDFOR hostile
     "DDG": Ship(
-        type="DDG",
+        type=Hostile_Vessel_Type,
         op=9,
         dp=2,
         sp=1.3
         ),
     "FFC": Ship(
-        type="FFC",
+        type=Hostile_Vessel_Type,
         op=4,
         dp=14,
         sp=1.6
         ),
     "FFG": Ship(
-        type="FFG",
+        type=Hostile_Vessel_Type,
         op=10,
         dp=4,
         sp=1
