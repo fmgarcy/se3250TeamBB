@@ -1,1 +1,1 @@
-from .wpninv import get_wpn_data, list_all_weapons
+from .wpninv import Missiles, wpn_inv, get_wpn_data, list_all_weapons, get_offensive_mod
