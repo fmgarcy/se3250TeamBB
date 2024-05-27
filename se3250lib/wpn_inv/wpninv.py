@@ -11,72 +11,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 """
 wpn_inv = {
     #Friendly
-    "AGM-114L": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "AGM-84E": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "BGM-109": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "RIM-116": Missiles(
-        launch_reliability = 0.5,
-        ascm_to_hit = 0.88,
-        sam_to_hit = 0.80,
-        ),
-    "RGM-84": Missiles(
-        launch_reliability = 0.9,
-        ascm_to_hit = 0.20,
-        sam_to_hit = 0.68,
-        ),
-    "RGM-184A": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "SM-3": Missiles(
-        launch_reliability = 1.0,
-        ascm_to_hit = 0.75,
-        sam_to_hit = 0.68,
-        ),
+    "AGM-114L": (0.8, 0.55, 0.68),
+    "AGM-84E": (0.8, 0.55, 0.68),
+    "BGM-109": (0.8, 0.55, 0.68),
+    "RIM-116": (0.8, 0.55, 0.68),
+    "RGM-84": (0.8, 0.55, 0.68),
+    "RGM-184A": (0.8, 0.55, 0.68),
+    "SM-3": (1.0, 0.75, 0.68),
     #Hostile
-    "FL-300N": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "HQ-10": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "HQ-16": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "YJ-18": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "YJ-12": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        ),
-    "YJ-83": Missiles(
-        launch_reliability = 0.8,
-        ascm_to_hit = 0.55,
-        sam_to_hit = 0.68,
-        )
+    "FL-300N": (0.8, 0.55, 0.68),
+    "HQ-10": (0.8, 0.55, 0.68),
+    "HQ-16": (0.8, 0.55, 0.68),
+    "YJ-18": (0.8, 0.55, 0.68),
+    "YJ-12": (0.8, 0.55, 0.68),
+    "YJ-83": (0.8, 0.55, 0.68)
 }
 
 def get_wpn_data(wpn_type):
@@ -84,10 +32,3 @@ def get_wpn_data(wpn_type):
 
 def list_all_weapons():
     return list(wpn_inv.keys())
-
-def get_offensive_mod(wpn_type):
-    weapon = wpn_inv.get(wpn_type)
-    lr = weapon.launch_reliability
-    ath = weapon.ascm_to_hit
-    launch_hit_frac = lr*ath
-    return launch_hit_frac
