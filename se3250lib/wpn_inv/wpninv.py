@@ -97,7 +97,7 @@ wpn_inv = {
 }
 
 def get_wpn_data(wpn_type):
-    return wpn_inv.get(wpn_type)
+    return wpn_inv.get(wpn_type), wpn_type
 
 def list_all_weapons():
     return list(wpn_inv.keys())
