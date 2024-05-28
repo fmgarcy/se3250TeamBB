@@ -1,3 +1,5 @@
+import random
+
 ship_costs ={
     #BLUFOR friendly
     "DDG-52": 1200000,
