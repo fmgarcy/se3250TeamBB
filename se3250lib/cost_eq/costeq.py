@@ -26,8 +26,8 @@ def calculate_ship_cost(ship_type, num_ships_lost, num_ships_damaged):
     salvage_cost = cost_without_salvage * salvage_rate
     repair_cost = 0
     for _ in range(num_ships_damaged):
-        repair_rate - random.normalvariate(0.125, 0.05) #Mean 12.5%, std dev 5%
-        repair_rate = max(0.05, min(0.2,repair_rate)) #retrict rates between 5-20%
+        repair_rate = random.normalvariate(0.125, 0.05) #Mean 12.5%, std dev 5%
+        repair_rate = max(0.05, min(0.2,repair_rate)) #restrict rates between 5-20%
         repair_cost += ship_cost * repair_rate
     total_ship_cost = cost_without_salvage - salvage_cost + repair_cost
     return total_ship_cost
