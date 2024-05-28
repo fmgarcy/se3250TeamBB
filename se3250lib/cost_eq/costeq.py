@@ -1,22 +1,22 @@
 ship_costs ={
     #BLUFOR friendly
-    "DDG_52": 1200000,
-    "DDG_84": 1300000,
-    "DDG_105": 1500000
+    "DDG-52": 1200000,
+    "DDG-84": 1300000,
+    "DDG-105": 1500000
 }
 
 ship_salvage_rates = {
     #BLUFOR friendly
-    "DDG_52": 0.3,
-    "DDG_84": 0.2,
-    "DDG_105": 0.4
+    "DDG-52": 0.3,
+    "DDG-84": 0.2,
+    "DDG-105": 0.4
 }
 
 wpn_costs ={
     #BLUFOR friendly
-    "DDG_52": 1200000,
-    "DDG_84": 1300000,
-    "DDG_105": 1500000
+    "AGM-114L": 1200000,
+    "AGM-84E": 1300000,
+    "BGM-109": 1500000
 }
 
 def calculate_ship_cost(ship_type, num_ships_lost, num_ships_damaged):
