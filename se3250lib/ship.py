@@ -13,40 +13,40 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # BLUFOR friendly
 ship_inv = {
     "DDG-52": {
-        "type":'DDG-52',
-        "op":15,
-        "dp":10,
-        "sp":1.5
-        },
+        "type": 'DDG-52',
+        "op": 16,
+        "dp": 12,
+        "sp": 1.7
+    },
     "DDG-84": {
-        "type":'DDG-84',
-        "op":15,
-        "dp":10,
-        "sp":1.5
-        },
+        "type": 'DDG-84',
+        "op": 14,
+        "dp": 9,
+        "sp": 1.6
+    },
     "DDG-105": {
-        "type":'DDG-105',
-        "op":15,
-        "dp":10,
-        "sp":1.5
-        },
+        "type": 'DDG-105',
+        "op": 18,
+        "dp": 11,
+        "sp": 1.8
+    },
     # REDFOR hostile
     "DDG": {
-        "type":'DDG',
-        "op":15,
-        "dp":10,
-        "sp":1.5
-        },
+        "type": 'DDG',
+        "op": 13,
+        "dp": 8,
+        "sp": 1.4
+    },
     "FFC": {
-        "type":'FFC',
-        "op":15,
-        "dp":10,
-        "sp":1.5
-        },
+        "type": 'FFC',
+        "op": 10,
+        "dp": 14,
+        "sp": 1.2
+    },
     "FFG": {
-        "type":'FFG',
-        "op":15,
-        "dp":10,
-        "sp":1.5
-        }
+        "type": 'FFG',
+        "op": 12,
+        "dp": 7,
+        "sp": 1.3
+    }
 }
