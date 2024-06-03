@@ -12,41 +12,65 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # BLUFOR friendly
 ship_inv = {
-    "DDG-52": {
-        "type": 'DDG-52',
-        "op": 16,
-        "dp": 12,
-        "sp": 1.7
+    "LCS-Freedom": {
+        "type": 'LCS-Freedom',
+        "op": 24,
+        "dp": 21,
+        "sp": 1.15
     },
-    "DDG-84": {
-        "type": 'DDG-84',
-        "op": 14,
-        "dp": 9,
-        "sp": 1.6
-    },
-    "DDG-105": {
-        "type": 'DDG-105',
-        "op": 18,
+    "LCS-Independence": {
+        "type": 'LCS-Independence',
+        "op": 32,
         "dp": 11,
-        "sp": 1.8
+        "sp": 1.27
+    },
+    "DDG-Arleigh-Burke": {
+        "type": 'DDG-Arleigh-Burke',
+        "op": 104,
+        "dp": 90,
+        "sp": 1.54
+    },
+    "CG-Ticonderoga": {
+        "type": 'CG-Ticonderoga',
+        "op": 138,
+        "dp": 68,
+        "sp": 1.73
     },
     # REDFOR hostile
-    "DDG": {
-        "type": 'DDG',
-        "op": 13,
+    "055D-Renhai-Dest": {
+        "type": '055D-Renhai-Dest',
+        "op": 112,
+        "dp": 24,
+        "sp": 1.8
+    },
+    "052D-Luyang-III-Dest": {
+        "type": '052D-Luyang-III-Dest',
+        "op": 64,
+        "dp": 24,
+        "sp": 1.57
+    },
+    "054A-Jiangkai-II-Frig": {
+        "type": '054A-Jiangkai-II-Frig',
+        "op": 8,
+        "dp": 32,
+        "sp": 1.34
+    },
+    "053H3-Jiangwei-II-Frig": {
+        "type": '053H3-Jiangwei-II-Frig',
+        "op": 8,
         "dp": 8,
-        "sp": 1.4
+        "sp": 1.12
+    },
+    "056A-Jiangdao-Corv": {
+        "type": '056A-Jiangdao-Corv',
+        "op": 4,
+        "dp": 8,
+        "sp": 0.9
     },
     "FFC": {
         "type": 'FFC',
-        "op": 10,
+        "op": 4,
         "dp": 14,
-        "sp": 1.2
-    },
-    "FFG": {
-        "type": 'FFG',
-        "op": 12,
-        "dp": 7,
-        "sp": 1.3
+        "sp": 1.6
     }
 }

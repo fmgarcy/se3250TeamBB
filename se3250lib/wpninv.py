@@ -45,13 +45,14 @@ wpn_inv = {
         "ascm_to_hit": 0.42,
         "sam_to_hit": 0.82,
     },
+    #REDFOR- Hostile
     "FL-300N": {
         "launch_reliability": 0.87,
         "ascm_to_hit": 0.66,
         "sam_to_hit": 0.71,
     },
     "HQ-10": {
-        "launch_reliability": 0.9,
+        "launch_reliability": 0.78,
         "ascm_to_hit": 0.61,
         "sam_to_hit": 0.67,
     },
@@ -61,18 +62,18 @@ wpn_inv = {
         "sam_to_hit": 0.73,
     },
     "YJ-18": {
-        "launch_reliability": 0.86,
-        "ascm_to_hit": 0.71,
-        "sam_to_hit": 0.55,
+        "launch_reliability": 0.92,
+        "ascm_to_hit": 0.55,
+        "sam_to_hit": 0.68,
     },
     "YJ-12": {
-        "launch_reliability": 0.84,
-        "ascm_to_hit": 0.64,
-        "sam_to_hit": 0.6,
+        "launch_reliability": 0.86,
+        "ascm_to_hit": 0.35,
+        "sam_to_hit": 0.68,
     },
     "YJ-83": {
-        "launch_reliability": 0.82,
-        "ascm_to_hit": 0.68,
-        "sam_to_hit": 0.53,
+        "launch_reliability": 0.88,
+        "ascm_to_hit": 0.55,
+        "sam_to_hit": 0.78,
     }
 }

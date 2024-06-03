@@ -1,24 +1,30 @@
 import random
 
-ship_costs ={
-    #BLUFOR friendly
-    "DDG-52": 1200000,
-    "DDG-84": 1300000,
-    "DDG-105": 1500000
+ship_costs = {
+    # BLUFOR friendly
+    "CG-Ticonderoga": 2500000,
+    "DDG-Arleigh-Burke": 1800000,
+    "LCS-Freedom": 700000,
+    "LCS-Independence": 800000
 }
 
 ship_salvage_rates = {
-    #BLUFOR friendly
-    "DDG-52": 0.3,
-    "DDG-84": 0.2,
-    "DDG-105": 0.4
+    # BLUFOR friendly
+    "CG-Ticonderoga": 0.45,
+    "DDG-Arleigh-Burke": 0.35,
+    "LCS-Freedom": 0.15,
+    "LCS-Independence": 0.18
 }
 
 wpn_costs ={
-    #BLUFOR friendly
-    "AGM-114L": 1200000,
-    "AGM-84E": 1300000,
-    "BGM-109": 1500000
+    # BLUFOR friendly
+    "AGM-114L": 120000,
+    "AGM-84E": 130000,
+    "BGM-109": 150000,
+    "RIM-116": 180000,
+    "RGM-84": 90000,
+    "RGM-184A": 100000,
+    "SM-3": 200000
 }
 
 def calculate_ship_cost(ship_type, num_ships_lost, num_ships_damaged):
