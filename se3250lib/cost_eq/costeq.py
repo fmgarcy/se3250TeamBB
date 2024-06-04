@@ -2,7 +2,7 @@ import random
 
 ship_costs = {
     # BLUFOR friendly
-    "CG-Ticonderoga": 2500000,
+    "CG-Ticonderoga": 1000000000,
     "DDG-Arleigh-Burke": 1800000,
     "LCS-Freedom": 700000,
     "LCS-Independence": 800000
@@ -18,13 +18,13 @@ ship_salvage_rates = {
 
 wpn_costs ={
     # BLUFOR friendly
-    "AGM-114L": 120000,
-    "AGM-84E": 130000,
-    "BGM-109": 150000,
-    "RIM-116": 180000,
-    "RGM-84": 90000,
-    "RGM-184A": 100000,
-    "SM-3": 200000
+    "AGM-114L": 150000, #Hellfire (LCS Only - Offensive)
+    "AGM-84E": 1527416, #Harpoon Variant (Offensive)
+    "BGM-109": 1900000, #Tomahawk (Offensive)
+    "RIM-116": 920000, #Rolling Airframe Missile (LCS Only - Defensive)
+    "RIM-66M": 2400000, #SM-2MR (DDG and CG - Both defensive and offensive)
+    "RGM-84": 1500000, #Harpoon (Defensive)
+    "RGM-184A": 2200000 #Naval Strike Missile (Offensive)
 }
 
 def calculate_ship_cost(ship_type, num_ships_lost, num_ships_damaged):

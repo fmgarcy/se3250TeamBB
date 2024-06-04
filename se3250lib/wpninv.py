@@ -40,11 +40,6 @@ wpn_inv = {
         "ascm_to_hit": 0.74,
         "sam_to_hit": 0.59,
     },
-    "SM-3": {
-        "launch_reliability": 0.96,
-        "ascm_to_hit": 0.42,
-        "sam_to_hit": 0.82,
-    },
     #REDFOR- Hostile
     "FL-300N": {
         "launch_reliability": 0.87,
