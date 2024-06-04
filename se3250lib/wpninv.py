@@ -30,6 +30,11 @@ wpn_inv = {
         "ascm_to_hit": 0.48,
         "sam_to_hit": 0.75,
     },
+    "RIM-66M": {
+        "launch_reliability": 0.85,
+        "ascm_to_hit": 0.48,
+        "sam_to_hit": 0.75,
+    },    
     "RGM-84": {
         "launch_reliability": 0.91,
         "ascm_to_hit": 0.69,
