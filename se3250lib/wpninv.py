@@ -11,67 +11,80 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 """
 wpn_inv = {
     "AGM-114L": {
+        "classtype": 'AGM',
         "launch_reliability": 0.92,
         "ascm_to_hit": 0.72,
         "sam_to_hit": 0.58,
     },
     "AGM-84E": {
+        "classtype": 'AGM',
         "launch_reliability": 0.88,
         "ascm_to_hit": 0.65,
         "sam_to_hit": 0.62,
     },
     "BGM-109": {
+        "classtype": 'BGM',
         "launch_reliability": 0.94,
         "ascm_to_hit": 0.78,
         "sam_to_hit": 0.51,
     },
     "RIM-116": {
+        "classtype": 'RIM',
         "launch_reliability": 0.85,
         "ascm_to_hit": 0.48,
         "sam_to_hit": 0.75,
     },
     "RIM-66M": {
+        "classtype": 'RIM',
         "launch_reliability": 0.85,
         "ascm_to_hit": 0.48,
         "sam_to_hit": 0.75,
     },    
     "RGM-84": {
+        "classtype": 'RGM',
         "launch_reliability": 0.91,
         "ascm_to_hit": 0.69,
         "sam_to_hit": 0.63,
     },
     "RGM-184A": {
+        "classtype": 'RGM',
         "launch_reliability": 0.93,
         "ascm_to_hit": 0.74,
         "sam_to_hit": 0.59,
     },
     #REDFOR- Hostile
     "FL-300N": {
+        "classtype": 'FL',
         "launch_reliability": 0.87,
         "ascm_to_hit": 0.66,
         "sam_to_hit": 0.71,
     },
     "HQ-10": {
+        "classtype": 'HQ',
         "launch_reliability": 0.78,
         "ascm_to_hit": 0.61,
         "sam_to_hit": 0.67,
     },
     "HQ-16": {
+        "classtype": 'HQ',
         "launch_reliability": 0.89,
         "ascm_to_hit": 0.57,
         "sam_to_hit": 0.73,
     },
     "YJ-18": {
+        "classtype": 'YJ',
         "launch_reliability": 0.92,
         "ascm_to_hit": 0.55,
         "sam_to_hit": 0.68,
     },
     "YJ-12": {
+        "classtype": 'YJ',
         "launch_reliability": 0.86,
         "ascm_to_hit": 0.35,
         "sam_to_hit": 0.68,
     },
     "YJ-83": {
+        "classtype": 'YJ',
         "launch_reliability": 0.88,
         "ascm_to_hit": 0.55,
         "sam_to_hit": 0.78,
