@@ -13,25 +13,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # BLUFOR friendly
 ship_inv = {
     "LCS-Freedom": {
-        "type": 'LCS-Freedom',
+        "type": 'LCS-Freedom',    
+        "classtype": 'LCS',
         "op": 24,
         "dp": 21,
         "sp": 1.15
     },
     "LCS-Independence": {
-        "type": 'LCS-Independence',
+        "type": 'LCS-Independence',    
+        "classtype": 'LCS',
         "op": 32,
         "dp": 11,
         "sp": 1.27
     },
     "DDG-Arleigh-Burke": {
-        "type": 'DDG-Arleigh-Burke',
+        "type": 'DDG-Arleigh-Burke',    
+        "classtype": 'DDG',
         "op": 104,
         "dp": 90,
         "sp": 1.54
     },
     "CG-Ticonderoga": {
-        "type": 'CG-Ticonderoga',
+        "type": 'CG-Ticonderoga',    
+        "classtype": 'CG',
         "op": 138,
         "dp": 68,
         "sp": 1.73
@@ -39,36 +43,42 @@ ship_inv = {
     # REDFOR hostile
     "055D-Renhai-Dest": {
         "type": '055D-Renhai-Dest',
+        "classtype": '055D',
         "op": 112,
         "dp": 24,
         "sp": 1.8
     },
     "052D-Luyang-III-Dest": {
         "type": '052D-Luyang-III-Dest',
+        "classtype": '052D',
         "op": 64,
         "dp": 24,
         "sp": 1.57
     },
     "054A-Jiangkai-II-Frig": {
         "type": '054A-Jiangkai-II-Frig',
+        "classtype": '054A',
         "op": 8,
         "dp": 32,
         "sp": 1.34
     },
     "053H3-Jiangwei-II-Frig": {
         "type": '053H3-Jiangwei-II-Frig',
+        "classtype": '053H3',
         "op": 8,
         "dp": 8,
         "sp": 1.12
     },
     "056A-Jiangdao-Corv": {
         "type": '056A-Jiangdao-Corv',
+        "classtype": '056A',   
         "op": 4,
         "dp": 8,
         "sp": 0.9
     },
     "FFC": {
         "type": 'FFC',
+        "classtype": 'FFC',        
         "op": 4,
         "dp": 14,
         "sp": 1.6
