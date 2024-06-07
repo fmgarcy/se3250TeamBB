@@ -41,46 +41,39 @@ ship_inv = {
         "sp": 1.73
     },
     # REDFOR hostile
-    "055D-Renhai-Dest": {
-        "type": '055D-Renhai-Dest',
-        "classtype": '055D',
+    "Destroyer-055D-Renhai": {
+        "type": 'Destroyer-055D-Renhai',
+        "classtype": 'Destroyer',
         "op": 112,
         "dp": 24,
         "sp": 1.8
     },
-    "052D-Luyang-III-Dest": {
-        "type": '052D-Luyang-III-Dest',
-        "classtype": '052D',
+    "Destroyer-052D-Luyang-III": {
+        "type": 'Destroyer-052D-Luyang-III',
+        "classtype": 'Destroyer',
         "op": 64,
         "dp": 24,
         "sp": 1.57
     },
-    "054A-Jiangkai-II-Frig": {
-        "type": '054A-Jiangkai-II-Frig',
-        "classtype": '054A',
+    "Frigate-054A-Jiangkai-II": {
+        "type": 'Frigate-054A-Jiangkai-II',
+        "classtype": 'Frigate',
         "op": 8,
         "dp": 32,
         "sp": 1.34
     },
-    "053H3-Jiangwei-II-Frig": {
-        "type": '053H3-Jiangwei-II-Frig',
-        "classtype": '053H3',
+    "Frigate-053H3-Jiangwei-II": {
+        "type": 'Frigate-053H3-Jiangwei-II',
+        "classtype": 'Frigate',
         "op": 8,
         "dp": 8,
         "sp": 1.12
     },
-    "056A-Jiangdao-Corv": {
-        "type": '056A-Jiangdao-Corv',
-        "classtype": '056A',   
+    "Corvette-056A-Jiangdao": {
+        "type": 'Corvette-056A-Jiangdao',
+        "classtype": 'Corvette',   
         "op": 4,
         "dp": 8,
         "sp": 0.9
-    },
-    "FFC": {
-        "type": 'FFC',
-        "classtype": 'FFC',        
-        "op": 4,
-        "dp": 14,
-        "sp": 1.6
     }
 }
