@@ -13,7 +13,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # BLUFOR friendly
 ship_inv = {
     "LCS-Freedom": {
-        "type": 'LCS-Freedom',    
+        "type": 'LCS-Freedom',
         "classtype": 'LCS',
         "op": 24,
         "dp": 21,
@@ -22,7 +22,7 @@ ship_inv = {
         "crew_training": 0.85
     },
     "LCS-Independence": {
-        "type": 'LCS-Independence',    
+        "type": 'LCS-Independence',
         "classtype": 'LCS',
         "op": 32,
         "dp": 11,
@@ -31,7 +31,7 @@ ship_inv = {
         "crew_training": 0.88
     },
     "DDG-Arleigh-Burke": {
-        "type": 'DDG-Arleigh-Burke',    
+        "type": 'DDG-Arleigh-Burke',
         "classtype": 'DDG',
         "op": 104,
         "dp": 90,
@@ -40,7 +40,7 @@ ship_inv = {
         "crew_training": 0.92
     },
     "CG-Ticonderoga": {
-        "type": 'CG-Ticonderoga',    
+        "type": 'CG-Ticonderoga',
         "classtype": 'CG',
         "op": 138,
         "dp": 68,
@@ -86,7 +86,7 @@ ship_inv = {
     },
     "Corvette-056A-Jiangdao": {
         "type": 'Corvette-056A-Jiangdao',
-        "classtype": 'Corvette',  
+        "classtype": 'Corvette',
         "op": 4,
         "dp": 8,
         "sp": 0.9,
