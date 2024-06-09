@@ -71,7 +71,7 @@ ship_inv = {
     },
     "Corvette-056A-Jiangdao": {
         "type": 'Corvette-056A-Jiangdao',
-        "classtype": 'Corvette',   
+        "classtype": 'Corvette',  
         "op": 4,
         "dp": 8,
         "sp": 0.9
