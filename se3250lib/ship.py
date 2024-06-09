@@ -40,7 +40,6 @@ ship_inv = {
         "dp": 68,
         "sp": 1.73
     },
-    # REDFOR hostile
     "Destroyer-055D-Renhai": {
         "type": 'Destroyer-055D-Renhai',
         "classtype": 'Destroyer',
