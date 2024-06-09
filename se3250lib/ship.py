@@ -18,8 +18,8 @@ ship_inv = {
         "op": 24,
         "dp": 21,
         "sp": 1.15,
-        "ship_age": 8,
-        "crew_training": 0.85,
+        "age": 8,
+        "training": 0.85,
     },
     "LCS-Independence": {
         "type": 'LCS-Independence',
@@ -27,8 +27,8 @@ ship_inv = {
         "op": 32,
         "dp": 11,
         "sp": 1.27,
-        "ship_age": 6,
-        "crew_training": 0.88,
+        "age": 6,
+        "training": 0.88,
     },
     "DDG-Arleigh-Burke": {
         "type": 'DDG-Arleigh-Burke',
@@ -36,8 +36,8 @@ ship_inv = {
         "op": 104,
         "dp": 90,
         "sp": 1.54,
-        "ship_age": 12,
-        "crew_training": 0.92,
+        "age": 12,
+        "training": 0.92,
     },
     "CG-Ticonderoga": {
         "type": 'CG-Ticonderoga',
@@ -45,8 +45,8 @@ ship_inv = {
         "op": 138,
         "dp": 68,
         "sp": 1.73,
-        "ship_age": 18,
-        "crew_training": 0.88,
+        "age": 18,
+        "training": 0.88,
     },
     "Destroyer-055D-Renhai": {
         "type": 'Destroyer-055D-Renhai',
@@ -54,8 +54,8 @@ ship_inv = {
         "op": 112,
         "dp": 24,
         "sp": 1.8,
-        "ship_age": 4,
-        "crew_training": 0.92,
+        "age": 4,
+        "training": 0.92,
     },
     "Destroyer-052D-Luyang-III": {
         "type": 'Destroyer-052D-Luyang-III',
@@ -63,8 +63,8 @@ ship_inv = {
         "op": 64,
         "dp": 24,
         "sp": 1.57,
-        "ship_age": 8,
-        "crew_training": 0.9,
+        "age": 8,
+        "training": 0.9,
     },
     "Frigate-054A-Jiangkai-II": {
         "type": 'Frigate-054A-Jiangkai-II',
@@ -72,8 +72,8 @@ ship_inv = {
         "op": 8,
         "dp": 32,
         "sp": 1.34,
-        "ship_age": 10,
-        "crew_training": 0.87,
+        "age": 10,
+        "training": 0.87,
     },
     "Frigate-053H3-Jiangwei-II": {
         "type": 'Frigate-053H3-Jiangwei-II',
@@ -81,8 +81,8 @@ ship_inv = {
         "op": 8,
         "dp": 8,
         "sp": 1.12,
-        "ship_age": 14,
-        "crew_training": 0.84,
+        "age": 14,
+        "training": 0.84,
     },
     "Corvette-056A-Jiangdao": {
         "type": 'Corvette-056A-Jiangdao',
@@ -90,7 +90,7 @@ ship_inv = {
         "op": 4,
         "dp": 8,
         "sp": 0.9,
-        "ship_age": 6,
-        "crew_training": 0.88,
+        "age": 6,
+        "training": 0.88,
     }
 }
