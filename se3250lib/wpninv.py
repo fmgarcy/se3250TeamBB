@@ -44,7 +44,7 @@ wpn_inv = {
         "launch_reliability": 0.85,
         "ascm_to_hit": 0.48,
         "sam_to_hit": 0.75,
-    },    
+    },
     "RGM-84": {
         "type": 'RGM-84',
         "classtype": 'RGM',
@@ -59,7 +59,6 @@ wpn_inv = {
         "ascm_to_hit": 0.74,
         "sam_to_hit": 0.59,
     },
-    #REDFOR- Hostile
     "FL-300N": {
         "type": 'FL-300N',
         "classtype": 'FL',
