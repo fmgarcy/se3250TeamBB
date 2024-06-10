@@ -95,7 +95,7 @@ ship_inv = {
     },
         "Test-1": {
         "type": 'Test-1',
-        "classtype": 'BlueTest',
+        "classtype": 'XX',
         "op": 4,
         "dp": 4,
         "sp": 2,
@@ -104,7 +104,7 @@ ship_inv = {
     },
         "Test-2": {
         "type": 'Test-2',
-        "classtype": 'RedTest',
+        "classtype": 'XX',
         "op": 3,
         "dp": 5,
         "sp": 3,

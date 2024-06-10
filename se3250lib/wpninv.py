@@ -103,14 +103,14 @@ wpn_inv = {
     },
     "Test-1": {
         "type": 'Test-1',
-        "classtype": 'BlueTest',
+        "classtype": 'XX',
         "launch_reliability": 1,
         "ascm_to_hit": 0.61,
         "sam_to_hit": 0.35,
     },
     "Test-2": {
         "type": 'Test-2',
-        "classtype": 'RedTest',
+        "classtype": 'XX',
         "launch_reliability": 1,
         "ascm_to_hit": 0.41,
         "sam_to_hit": 0.25,
