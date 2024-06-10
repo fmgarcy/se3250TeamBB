@@ -103,9 +103,16 @@ wpn_inv = {
     },
     "Test-Missile": {
         "type": 'Test-Missile',
-        "classtype": 'Test',
+        "classtype": 'BlueTest',
         "launch_reliability": 1,
         "ascm_to_hit": 0.61,
         "sam_to_hit": 0.35,
-    }
+    },
+    "Test-Missile": {
+        "type": 'Test-Missile',
+        "classtype": 'RedTest',
+        "launch_reliability": 1,
+        "ascm_to_hit": 0.41,
+        "sam_to_hit": 0.25,
+    }    
 }
