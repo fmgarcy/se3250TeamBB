@@ -101,11 +101,11 @@ wpn_inv = {
         "ascm_to_hit": 0.55,
         "sam_to_hit": 0.78,
     },
-    "Test-Missile": {
-        "type": 'Test-Missile',
+    "Test": {
+        "type": 'Test',
         "classtype": 'Test',
         "launch_reliability": 1,
         "ascm_to_hit": 0.61,
         "sam_to_hit": 0.35,
-    }    
+    }
 }
