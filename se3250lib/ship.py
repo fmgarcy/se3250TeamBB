@@ -93,8 +93,8 @@ ship_inv = {
         "age": 6,
         "training": 0.88,
     },
-        "Test-Frigate": {
-        "type": 'Test-Frigate',
+        "Test-1": {
+        "type": 'Test-1',
         "classtype": 'BlueTest',
         "op": 4,
         "dp": 4,
@@ -102,8 +102,8 @@ ship_inv = {
         "age": 20,
         "training": 1,
     },
-        "Test-Frigate": {
-        "type": 'Test-Frigate',
+        "Test-2": {
+        "type": 'Test-2',
         "classtype": 'RedTest',
         "op": 3,
         "dp": 5,
