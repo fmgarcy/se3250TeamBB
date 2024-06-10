@@ -92,5 +92,14 @@ ship_inv = {
         "sp": 0.9,
         "age": 6,
         "training": 0.88,
+    },
+        "Test-Frigate": {
+        "type": 'Test-Frigate',
+        "classtype": 'Test',
+        "op": 4,
+        "dp": 4,
+        "sp": 2,
+        "age": 1,
+        "training": 1,
     }
 }
