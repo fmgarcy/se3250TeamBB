@@ -98,7 +98,7 @@ ship_inv = {
         "op": 4,
         "dp": 4,
         "sp": 2,
-        "age": 20,
+        "age": 0,
         "training": 1,
     },
         "Test-2": {
@@ -107,7 +107,7 @@ ship_inv = {
         "op": 3,
         "dp": 5,
         "sp": 3,
-        "age": 40,
+        "age": 0,
         "training": 1,
     }
 }
