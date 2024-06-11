@@ -104,9 +104,9 @@ ship_inv = {
         "Test-2": {
         "type": 'Test-2',
         "classtype": 'XX',
-        "op": 3,
-        "dp": 5,
-        "sp": 3,
+        "op": 4,
+        "dp": 4,
+        "sp": 2,
         "age": 0,
         "training": 1,
     }
