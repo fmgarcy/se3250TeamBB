@@ -5,7 +5,9 @@ ship_costs = {
     "CG-Ticonderoga": 1000000000,
     "DDG-Arleigh-Burke": 1800000,
     "LCS-Freedom": 700000,
-    "LCS-Independence": 800000
+    "LCS-Independence": 800000,
+    "Test-1": 1000000,
+    "Test-2": 1000000    
 }
 
 ship_salvage_rates = {
@@ -14,6 +16,8 @@ ship_salvage_rates = {
     "DDG-Arleigh-Burke": 0.35,
     "LCS-Freedom": 0.15,
     "LCS-Independence": 0.18
+    "Test-1": 0.12,
+    "Test-2": 0.20
 }
 
 wpn_costs ={
@@ -24,7 +28,9 @@ wpn_costs ={
     "RIM-116": 920000, #Rolling Airframe Missile (LCS Only - Defensive)
     "RIM-66M": 2400000, #SM-2MR (DDG and CG - Both defensive and offensive)
     "RGM-84": 1500000, #Harpoon (Defensive)
-    "RGM-184A": 2200000 #Naval Strike Missile (Offensive)
+    "RGM-184A": 2200000, #Naval Strike Missile (Offensive)
+    "Test-1": 2300000,
+    "Test-2": 1990000 
 }
 
 def calculate_ship_cost(ship_type, num_ships_lost, num_ships_damaged):
