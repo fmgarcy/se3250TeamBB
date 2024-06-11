@@ -112,7 +112,7 @@ wpn_inv = {
         "type": 'Test-2',
         "classtype": 'XX',
         "launch_reliability": 1,
-        "ascm_to_hit": 0.41,
-        "sam_to_hit": 0.25,
+        "ascm_to_hit": 0.61,
+        "sam_to_hit": 0.35,
     }    
 }
