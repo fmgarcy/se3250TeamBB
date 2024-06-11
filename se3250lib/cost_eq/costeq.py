@@ -15,7 +15,7 @@ ship_salvage_rates = {
     "CG-Ticonderoga": 0.45,
     "DDG-Arleigh-Burke": 0.35,
     "LCS-Freedom": 0.15,
-    "LCS-Independence": 0.18
+    "LCS-Independence": 0.18,
     "Test-1": 0.12,
     "Test-2": 0.20
 }
